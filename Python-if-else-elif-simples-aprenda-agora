@@ -10,9 +10,15 @@ velocidade = input ("Obrigado " + nome  +  " " "CPF:"+ cpf +  ", "+ "Obrigado po
 #Voce tera que converter str para int dessa forma abaixo, se nao o codigo vai dar erro
 velocidade = int (velocidade)
 
+#if é um "SE" ex: SE(if) velocidade for maior ">" que 81, print....
+#elif é a continuação do if, mesma dinamica
+#else é um "OU" e serve para finalizar. OU seja a ordem segue sempre em if, elif e else, beleza?
+
 if velocidade > 81:
     print ("Velocidade acima da media permitida, favor reduzir, fiscalizacao eletronica na via, EVITE ACIDENTE!!!")
 elif velocidade < 55:
     print ("Favor aumentar velocidade, via de fluxo alto, evite acidentes")
 else:
     print("Velocidade OK")
+    
+    #BONS ESTUDOS
