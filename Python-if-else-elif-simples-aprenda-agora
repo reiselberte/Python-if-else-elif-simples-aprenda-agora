@@ -7,7 +7,7 @@ cpf = input (" Qual o seu CPF: ")
 
 velocidade = input ("Obrigado " + nome  +  " " "CPF:"+ cpf +  ", "+ "Obrigado por confirmar seus dados, qual a velocidade que voce passou na VIA? ")
 
-#Voce tera que converter str para int dessa forma abaixo, se nao o codigo vai dar erro
+#Voce tera que converter str velocidade para int dessa forma abaixo, se nao o codigo vai dar erro
 velocidade = int (velocidade)
 
 #if é um "SE" ex: SE(if) velocidade for maior ">" que 81, print....
