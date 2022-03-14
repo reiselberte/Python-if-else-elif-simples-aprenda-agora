@@ -12,7 +12,7 @@ velocidade = int (velocidade)
 
 #if é um "SE" ex: SE(if) velocidade for maior ">" que 81, print....
 #elif é a continuação do if, mesma dinamica
-#else é um "OU" e serve para finalizar. OU seja a ordem segue sempre em if, elif e else, beleza?
+#else é um "OU" e serve para finalizar. OU seja a ordem segue sempre em if, elif e else, beleza? vc poderá usar usar quantos elif quiser, vai de acordo com a situação que for criada.
 
 if velocidade > 81:
     print ("Velocidade acima da media permitida, favor reduzir, fiscalizacao eletronica na via, EVITE ACIDENTE!!!")
