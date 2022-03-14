@@ -1,6 +1,7 @@
 #entendendo if, else e elif
 #velocidade maxima permitida 80kh
 
+#abaixo eu solicitei só nome e cpf, mas eu poderia pedir CNH, PLACA do veiculo etc...
 print  ("Sistema Simulatorio de multa por excesso de velocidade")
 nome = input(" Qual o seu nome completo: ")
 cpf = input (" Qual o seu CPF: ")
