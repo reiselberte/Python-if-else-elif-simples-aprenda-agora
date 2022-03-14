@@ -15,9 +15,9 @@ velocidade = int (velocidade)
 #elif é a continuação do if, mesma dinamica
 #else é um "OU" e serve para finalizar. OU seja a ordem segue sempre em if, elif e else, beleza? vc poderá usar usar quantos elif quiser, vai de acordo com a situação que for criada.
 
-if velocidade > 81:
+if velocidade > 80:
     print ("Velocidade acima da media permitida, favor reduzir, fiscalizacao eletronica na via, EVITE ACIDENTE!!!")
-elif velocidade < 55:
+elif velocidade < 60:
     print ("Favor aumentar velocidade, via de fluxo alto, evite acidentes")
 else:
     print("Velocidade OK")
